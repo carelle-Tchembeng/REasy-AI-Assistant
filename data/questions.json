@@ -1,0 +1,135 @@
+[
+  {
+    "id": "nom_entreprise",
+    "ordre": 1,
+    "texte": "Quel est le nom de votre entreprise (acheteur) ?",
+    "type": "texte_libre",
+    "champ_modele": "nom_entreprise",
+    "obligatoire": true,
+    "exemple": "Ex : REasy SAS"
+  },
+  {
+    "id": "pays_acheteur",
+    "ordre": 2,
+    "texte": "Dans quel pays se trouve votre entreprise ?",
+    "type": "texte_libre",
+    "champ_modele": "pays_acheteur",
+    "obligatoire": true,
+    "exemple": "Ex : France"
+  },
+  {
+    "id": "nom_fournisseur",
+    "ordre": 3,
+    "texte": "Quel est le nom de votre fournisseur ?",
+    "type": "texte_libre",
+    "champ_modele": "nom_fournisseur",
+    "obligatoire": true,
+    "exemple": "Ex : Shenzhen Electronics Co."
+  },
+  {
+    "id": "pays_fournisseur",
+    "ordre": 4,
+    "texte": "Dans quel pays se trouve votre fournisseur ?",
+    "type": "choix_multiple",
+    "champ_modele": "pays_fournisseur",
+    "obligatoire": true,
+    "options": [
+      "Chine",
+      "Egypt",
+      "cambodia",
+      "Ecuador",
+      "Inde",
+      "Turkey",
+      "Autre"
+    ],
+    "exemple": "Ex : Chine"
+  },
+  {
+    "id": "type_marchandise",
+    "ordre": 5,
+    "texte": "Quel est le type de marchandise concernée par ce paiement ?",
+    "type": "choix_multiple",
+    "champ_modele": "type_marchandise",
+    "obligatoire": true,
+    "options": [
+      "Électronique",
+      "Textile",
+      "Alimentaire",
+      "Matières premières",
+      "Équipement industriel",
+      "Autre"
+    ],
+    "exemple": "Ex : Électronique"
+  },
+  {
+    "id": "description_marchandise",
+    "ordre": 6,
+    "texte": "Pouvez-vous décrire brièvement la marchandise ?",
+    "type": "texte_libre",
+    "champ_modele": "description_marchandise",
+    "obligatoire": false,
+    "exemple": "Ex : 500 unités de smartphones Android"
+  },
+  {
+    "id": "montant",
+    "ordre": 7,
+    "texte": "Quel est le montant du paiement ?",
+    "type": "nombre",
+    "champ_modele": "montant",
+    "obligatoire": true,
+    "exemple": "Ex : 15000"
+  },
+  {
+    "id": "devise",
+    "ordre": 8,
+    "texte": "Quelle est la devise du paiement ?",
+    "type": "choix_multiple",
+    "champ_modele": "devise",
+    "obligatoire": true,
+    "options": ["USD", "EUR", "GBP", "CNY", "MAD", "TRY", "Autre"],
+    "exemple": "Ex : USD"
+  },
+  {
+    "id": "mode_paiement",
+    "ordre": 9,
+    "texte": "Quel est le mode de paiement prévu ?",
+    "type": "choix_multiple",
+    "champ_modele": "mode_paiement",
+    "obligatoire": true,
+    "options": [
+      "Virement SWIFT",
+      "Lettre de crédit (L/C)",
+      "Remise documentaire",
+      "Paiement anticipé",
+      "Compte ouvert"
+    ],
+    "exemple": "Ex : Virement SWIFT"
+  },
+  {
+    "id": "banque_fournisseur",
+    "ordre": 10,
+    "texte": "Quel est le nom de la banque du fournisseur ?",
+    "type": "texte_libre",
+    "champ_modele": "banque_fournisseur",
+    "obligatoire": false,
+    "exemple": "Ex : Bank of China"
+  },
+  {
+    "id": "swift_bic",
+    "ordre": 11,
+    "texte": "Quel est le code SWIFT / BIC de la banque du fournisseur ?",
+    "type": "texte_libre",
+    "champ_modele": "swift_bic",
+    "obligatoire": false,
+    "exemple": "Ex : BKCHCNBJ"
+  },
+  {
+    "id": "iban_fournisseur",
+    "ordre": 12,
+    "texte": "Quel est l'IBAN ou le numéro de compte du fournisseur ?",
+    "type": "texte_libre",
+    "champ_modele": "iban_fournisseur",
+    "obligatoire": false,
+    "exemple": "Ex : CN1234567890123456"
+  }
+]

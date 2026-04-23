@@ -1,0 +1,36 @@
+[
+  {
+    "id": "20260321_174136_913422",
+    "date": "21/03/2026 17:41",
+    "entreprise": "UCB",
+    "pays_acheteur": "cameroun",
+    "fournisseur": "Francis",
+    "pays_fournisseur": "Inde",
+    "montant": 350000.0,
+    "devise": "CNY",
+    "mode_paiement": "Virement SWIFT",
+    "type_marchandise": "Autre",
+    "banque": "N/A",
+    "swift_bic": "N/A",
+    "nb_documents": 9,
+    "mode_degrade": true,
+    "resume_base": "==================================================\n  RÉSUMÉ DE L'OPÉRATION DE PAIEMENT INTERNATIONAL\n==================================================\n\n1. IDENTIFICATION DE L'OPÉRATION\n-----------------------------------\n  • Nom de l'entreprise (acheteur)   : UCB\n  • Pays de l'acheteur    : cameroun\n  • Nom du fournisseur  : Francis\n  • Pays du fournisseur : Inde\n\n2. DÉTAILS FINANCIERS\n-----------------------------------\n  • Montant          : 350 000,00 CNY\n  • Mode de paiement : Virement SWIFT\n\n3. NATURE DE LA MARCHANDISE\n-----------------------------------\n  • Type        : Autre\n  • Description : 13kg de perruques\n\n4. COORDONNÉES BANCAIRES DU FOURNISSEUR\n-----------------------------------\n  • Banque       : N/A\n  • SWIFT / BIC  : N/A\n  • IBAN / Compte: N/A\n\n5. INFORMATIONS DE SESSION\n-----------------------------------\n  • Date de l'opération : 21/03/2026 17:34\n\n=================================================="
+  },
+  {
+    "id": "20260328_160458_177403",
+    "date": "28/03/2026 16:04",
+    "entreprise": "SOC",
+    "pays_acheteur": "cameroun",
+    "fournisseur": "nihawo boris",
+    "pays_fournisseur": "Chine",
+    "montant": 80000.0,
+    "devise": "USD",
+    "mode_paiement": "Virement SWIFT",
+    "type_marchandise": "Électronique",
+    "banque": "Bank of China",
+    "swift_bic": "BKWWOPYH",
+    "nb_documents": 10,
+    "mode_degrade": true,
+    "resume_base": "==================================================\n  RÉSUMÉ DE L'OPÉRATION DE PAIEMENT INTERNATIONAL\n==================================================\n\n1. IDENTIFICATION DE L'OPÉRATION\n-----------------------------------\n  • Nom de l'entreprise (acheteur)   : SOC\n  • Pays de l'acheteur    : cameroun\n  • Nom du fournisseur  : nihawo boris\n  • Pays du fournisseur : Chine\n\n2. DÉTAILS FINANCIERS\n-----------------------------------\n  • Montant          : 80 000,00 USD\n  • Mode de paiement : Virement SWIFT\n\n3. NATURE DE LA MARCHANDISE\n-----------------------------------\n  • Type        : Électronique\n  • Description : 500 unités de tablettes pour enfants\n\n4. COORDONNÉES BANCAIRES DU FOURNISSEUR\n-----------------------------------\n  • Banque       : Bank of China\n  • SWIFT / BIC  : BKWWOPYH\n  • IBAN / Compte: N/A\n\n5. INFORMATIONS DE SESSION\n-----------------------------------\n  • Date de l'opération : 28/03/2026 15:58\n\n=================================================="
+  }
+]

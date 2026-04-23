@@ -1,0 +1,218 @@
+{
+  "_documents_base": {
+    "description": "Documents systématiquement requis pour tout paiement international, quel que soit le pays",
+    "documents": [
+      {
+        "nom": "Facture commerciale",
+        "description": "Document émis par le fournisseur détaillant la marchandise, le prix unitaire, le montant total et les conditions de vente (Incoterms).",
+        "obligatoire": true
+      },
+      {
+        "nom": "Bon de commande",
+        "description": "Document interne de l'acheteur autorisant formellement l'achat auprès du fournisseur.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Contrat commercial",
+        "description": "Accord signé entre acheteur et vendeur précisant les modalités de la transaction.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Relevé d'identité bancaire (RIB) du fournisseur",
+        "description": "Coordonnées bancaires complètes du bénéficiaire : IBAN, code SWIFT/BIC, nom et adresse de la banque.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Justificatif d'importation (domiciliation)",
+        "description": "Déclaration auprès de la banque de l'acheteur pour les paiements dépassant un certain seuil réglementaire.",
+        "obligatoire": true
+      }
+    ]
+  },
+
+  "Chine": {
+    "devise_habituelle": "CNY / USD",
+    "delai_virement_moyen": "3 à 5 jours ouvrés",
+    "remarque": "La Chine impose des contrôles stricts sur les devises étrangères. Les virements doivent souvent être validés par la State Administration of Foreign Exchange (SAFE). Prévoir des délais supplémentaires.",
+    "documents_specifiques": [
+      {
+        "nom": "Certificat d'origine (Form E ou CO)",
+        "description": "Prouve l'origine chinoise des marchandises. Le Form E est utilisé dans le cadre de l'accord de libre-échange ASEAN-Chine.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Packing list (liste de colisage)",
+        "description": "Détail du contenu de chaque colis : poids, dimensions, références.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Bill of Lading (connaissement) ou Airway Bill",
+        "description": "Document de transport émis par le transporteur (maritime ou aérien) attestant la prise en charge des marchandises.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Certificat de conformité ou d'inspection",
+        "description": "Délivré par un organisme tiers (SGS, Bureau Veritas...) attestant que les marchandises respectent les normes convenues.",
+        "obligatoire": false
+      },
+      {
+        "nom": "Déclaration en douane à l'export (côté chinois)",
+        "description": "Document douanier chinois attestant que la marchandise a été légalement exportée.",
+        "obligatoire": true
+      }
+    ]
+  },
+
+  "Egypt": {
+    "devise_habituelle": "MAD / EUR",
+    "delai_virement_moyen": "2 à 4 jours ouvrés",
+    "remarque": "Le Maroc est soumis à une réglementation de change stricte gérée par l'Office des Changes. Tout paiement international doit être domicilié auprès d'une banque agréée.",
+    "documents_specifiques": [
+      {
+        "nom": "Certificat d'origine (EUR.1 ou Form A)",
+        "description": "Requis pour bénéficier des accords de libre-échange entre le Maroc et l'UE (Accord d'Association).",
+        "obligatoire": true
+      },
+      {
+        "nom": "Titre d'importation (TI)",
+        "description": "Autorisation préalable à l'importation de certaines marchandises, délivrée par le Ministère du Commerce.",
+        "obligatoire": false
+      },
+      {
+        "nom": "Déclaration unique des marchandises (DUM)",
+        "description": "Déclaration douanière marocaine obligatoire pour toute importation.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Engagement d'importation",
+        "description": "Document bancaire attestant l'engagement de l'importateur à rapatrier les marchandises payées.",
+        "obligatoire": true
+      }
+    ]
+  },
+
+  "cambodia": {
+    "devise_habituelle": "USD",
+    "delai_virement_moyen": "1 à 3 jours ouvrés",
+    "remarque": "Les États-Unis appliquent des réglementations OFAC (sanctions économiques). Vérifier que le fournisseur ne figure pas sur les listes de sanctions avant tout paiement.",
+    "documents_specifiques": [
+      {
+        "nom": "Commercial Invoice (facture commerciale en anglais)",
+        "description": "La facture doit être rédigée en anglais et mentionner le HTS code (code douanier américain) de la marchandise.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Certificate of Origin",
+        "description": "Certifie l'origine américaine des marchandises exportées.",
+        "obligatoire": true
+      },
+      {
+        "nom": "EEI (Electronic Export Information)",
+        "description": "Déclaration électronique d'exportation obligatoire pour les envois dépassant 2 500 USD.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Vérification OFAC",
+        "description": "Vérification que la contrepartie ne figure pas sur les listes de sanctions du Trésor américain.",
+        "obligatoire": true
+      }
+    ]
+  },
+
+  "Ecuador": {
+    "devise_habituelle": "EUR",
+    "delai_virement_moyen": "1 à 2 jours ouvrés (SEPA) / 3 à 5 jours (SWIFT)",
+    "remarque": "L'Allemagne fait partie de la zone euro et de l'espace SEPA. Les virements intra-UE peuvent utiliser le virement SEPA, plus rapide et moins coûteux que le SWIFT.",
+    "documents_specifiques": [
+      {
+        "nom": "Déclaration d'échanges de biens (DEB) ou DAU",
+        "description": "Obligatoire pour les échanges intracommunautaires dépassant certains seuils. Déclarée mensuellement.",
+        "obligatoire": false
+      },
+      {
+        "nom": "Facture avec numéro de TVA intracommunautaire",
+        "description": "La facture doit mentionner le numéro de TVA intracommunautaire des deux parties pour les échanges UE.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Document de transport CMR (si transport routier)",
+        "description": "Lettre de voiture internationale pour le transport routier de marchandises en Europe.",
+        "obligatoire": false
+      }
+    ]
+  },
+
+  "Inde": {
+    "devise_habituelle": "INR / USD",
+    "delai_virement_moyen": "3 à 5 jours ouvrés",
+    "remarque": "La Reserve Bank of India (RBI) réglemente strictement les transactions en devises étrangères (FEMA Act). Certaines marchandises nécessitent une licence d'exportation.",
+    "documents_specifiques": [
+      {
+        "nom": "Certificat d'origine (GSP Form A)",
+        "description": "Permet de bénéficier du Système de Préférences Généralisées pour les exportations indiennes vers l'UE.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Shipping Bill",
+        "description": "Document douanier indien obligatoire pour toute exportation, déposé auprès des douanes indiennes.",
+        "obligatoire": true
+      },
+      {
+        "nom": "FIRC (Foreign Inward Remittance Certificate)",
+        "description": "Certificat délivré par la banque indienne attestant la réception d'un paiement en devises étrangères.",
+        "obligatoire": false
+      },
+      {
+        "nom": "IEC (Import Export Code)",
+        "description": "Code d'identification obligatoire pour tout exportateur indien, délivré par le DGFT.",
+        "obligatoire": true
+      }
+    ]
+  },
+
+  "Turkey": {
+    "devise_habituelle": "TRY / USD / EUR",
+    "delai_virement_moyen": "2 à 4 jours ouvrés",
+    "remarque": "La Turquie a une réglementation de change active gérée par la Banque centrale de Turquie. La livre turque (TRY) est soumise à une forte volatilité — préférer les paiements en USD ou EUR.",
+    "documents_specifiques": [
+      {
+        "nom": "Certificat d'origine ATR ou EUR.1",
+        "description": "Le certificat ATR permet la libre circulation des marchandises entre la Turquie et l'UE dans le cadre de l'Union douanière.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Déclaration d'exportation turque (Gümrük beyannamesi)",
+        "description": "Document douanier turc obligatoire pour toute exportation de marchandises.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Certificat d'analyse ou de conformité",
+        "description": "Requis pour certaines catégories de produits (alimentaire, chimique, textile) exportés depuis la Turquie.",
+        "obligatoire": false
+      }
+    ]
+  },
+
+  "Autre": {
+    "devise_habituelle": "USD / EUR",
+    "delai_virement_moyen": "3 à 7 jours ouvrés",
+    "remarque": "Pays non répertorié dans la base. Les documents de base s'appliquent. Il est recommandé de vérifier la réglementation spécifique du pays avec votre banque ou un expert en commerce international.",
+    "documents_specifiques": [
+      {
+        "nom": "Certificat d'origine",
+        "description": "Document attestant l'origine des marchandises, généralement requis par les douanes du pays importateur.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Document de transport (B/L, AWB ou CMR)",
+        "description": "Selon le mode de transport : connaissement maritime, lettre de transport aérien ou lettre de voiture routière.",
+        "obligatoire": true
+      },
+      {
+        "nom": "Certificat sanitaire ou phytosanitaire",
+        "description": "Requis pour les produits alimentaires, végétaux ou animaux selon la réglementation du pays destinataire.",
+        "obligatoire": false
+      }
+    ]
+  }
+}
