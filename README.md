@@ -5,7 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red?logo=streamlit)](https://streamlit.io/)
 [![Mistral](https://img.shields.io/badge/LLM-Mistral%20via%20Ollama-orange)](https://ollama.ai/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
 
 ---
 
