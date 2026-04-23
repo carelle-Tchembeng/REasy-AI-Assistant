@@ -1,4 +1,4 @@
-# REasy AI Assistant 🤖
+# REasy AI Assistant 
 
 > Assistant IA hors-ligne dédié à la préparation des opérations de paiements internationaux
 
