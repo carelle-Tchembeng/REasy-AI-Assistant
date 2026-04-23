@@ -156,6 +156,4 @@ Développé dans le cadre d'un projet de prototypage IA appliqué aux opération
 
 ---
 
-## Licence
 
-Ce projet est sous licence MIT — voir le fichier [LICENSE](LICENSE) pour plus de détails.
