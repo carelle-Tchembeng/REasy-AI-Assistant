@@ -56,7 +56,7 @@ REasy_AI_Assistant/
 │   ├── llm_client.py             # Client Ollama/Mistral
 │   └── prompt_builder.py         # Construction dynamique des prompts
 ├── models/
-│   └── payment_service.py        # Modèles de données
+│   └── payment_models.py        # Modèles de données
 ├── services/
 │   └── payment_service.py        # Services métier
 ├── ui/
@@ -92,7 +92,7 @@ ollama pull mistral
 
 ```bash
 # 1. Cloner le repository
-git clone https://github.com/TON_USERNAME/REasy_AI_Assistant.git
+git clone https://github.com/carelle-Tchembeng/REasy_AI_Assistant.git
 cd REasy_AI_Assistant
 
 # 2. Créer un environnement virtuel
